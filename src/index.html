@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset=UTF-8>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Survey</title>
+    <base href="/">
+
+    <link rel="stylesheet" href="ui/assets/stylesheets/bootstrap.css">
+    <link rel="stylesheet" href="ui/assets/stylesheets/app.css">
+    <link rel="stylesheet" href="ui/assets/stylesheets/plugins.css">
+</head>
+<body>
+<script src="ui/assets/vendor/js/lib.min.js"></script>
+
+<script async src="/main.bundle.js"></script>
+<script src="ui/assets/vendor/js/lib.min.js"></script>
+
+<div class="main-wrap">
+    <nav class="navigation">
+        <!-- START Navbar -->
+        <div class="navbar-inverse navbar navbar-fixed-top">
+            <div class="container-fluid">
+
+                <div class="navbar-header">
+                    <a class="current navbar-brand" href="starter.html">
+                        <img alt="Spin Logo Inverted" class="h-20" src="ui/assets/images/athletigen-logo-white@2X.png">
+                    </a>
+                    <button class="navbar-toggle collapsed" data-target="#navbar" data-toggle="collapse" type="button">
+                        <i class="fa fa-fw fa-user text-white"></i>
+                    </button>
+                    <button class="action-sidebar-open navbar-toggle collapsed" type="button">
+                        <i class="fa fa-fw fa-bars text-white"></i>
+                    </button>
+                </div>
+
+                <div class="collapse navbar-collapse" id="navbar">
+
+                    <!-- START Right Side Navbar -->
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#">Sign Out<i class="m-l-1 fa-lg fa fa-fw fa-sign-out m-r-1"></i></a></li>
+
+                    </ul>
+                    <!-- END Right Side Navbar -->
+                </div>
+
+            </div>
+        </div>
+        <!-- END Navbar -->
+        <!-- START Sidebars -->
+        <aside class="navbar-default sidebar">
+
+            <div class="sidebar-overlay-head">
+                <img src="ui/assets/images/spin-logo-inverted.png" alt="Logo"/>
+                <a href="javascript:void(0)" class="sidebar-switch action-sidebar-close">
+                    <i class="fa fa-times"></i>
+                </a>
+            </div>
+            <div class="sidebar-logo">
+                <img class="logo-default" src="ui/assets/images/spin-logo-big-inverse-@2X.png" alt="Logo" width="53">
+                <img class="logo-slim" src="ui/assets/images/spin-logo-slim.png" alt="Logo">
+            </div>w
+
+            <div class="sidebar-content">
+                <!-- START Tree -->
+                <ul class="side-menu m-t-2">
+                    <li class="Dashboards">
+                        <a href="#" title="Dashboards">
+                            <i class="fa  fa-history fa-lg fa-fw"></i><span class="nav-label">Performance</span><i
+                                class="fa arrow"></i>
+                        </a>
+                        <ul>
+                            <li>
+                                <a href="#"><span class="nav-label">Summary</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#"><span class="nav-label">History</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="Dashboards">
+                        <a href="#" title="Dashboards">
+                            <i class="fa  fa-folder-open-o fa-lg fa-fw"></i><span class="nav-label">Measurement</span><i
+                                class="fa arrow"></i>
+                        </a>
+                        <ul>
+                            <li class='active'>
+                                <a href="#"><span class="nav-label">Daily Survey</span>
+                                    <span class="pull-right label label-primary label-outline text-uppercase">New</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#"><span class="nav-label">Import</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" title="Apps">
+                            <i class="fa fa-files-o fa-fw fa-lg"></i><span class="nav-label">Levels</span> <i
+                                class="fa arrow"></i>
+                        </a>
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <span class="nav-label">Level One</span> <i class="fa arrow"></i>
+                                </a>
+                                <ul>
+                                    <li>
+                                        <a href="#"><span class="nav-label">Sub-level</span></a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <!-- END Tree  -->
+
+                <div class="sidebar-default-visible">
+                    <hr>
+                </div>
+
+            </div>
+        </aside>
+        <!-- END Sidebars -->
+
+    </nav>
+
+    <div class="content">
+        <!-- START Sub-Navbar with Header only-->
+        <div class="sub-navbar sub-navbar__header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="page-header m-t-0">
+                            <h3 class="m-t-0">Starter HTML/CSS</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- END Sub-Navbar with Header only-->
+
+        <!-- START Sub-Navbar with Header and Breadcrumbs-->
+        <div class="sub-navbar sub-navbar__header-breadcrumbs">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 sub-navbar-column">
+                        <div class="sub-navbar-header">
+                            <h3>Daily Survey</h3>
+                        </div>
+                        <ol class="breadcrumb navbar-text navbar-right no-bg">
+                            <li class="current-parent">
+                                <a class="current-parent" href="index.html">
+                                    <i class="fa fa-fw fa-home"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Measurement
+                                </a>
+                            </li>
+                            <li class="active">Daily Survey</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- END Sub-Navbar with Header and Breadcrumbs-->
+
+
+        <div class="container">
+            <!-- START Content -->
+            <div class="row">
+                <div class="col-lg-12">
+                    <app>
+                        Loading...
+                    </app>
+                </div>
+            </div>
+            <!-- END Content -->
+
+        </div>
+
+    </div>
+
+    <!-- START Footer -->
+    <footer>
+        <div class="container-fluid">
+            <p class="text-gray-dark">
+                © 2017 - Sid Bala. Please hire me.
+            </p>
+        </div>
+    </footer>
+    <!-- END Footer -->
+
+</div>
+
+<link rel="stylesheet" href="ui/assets/vendor/css/lib.min.css">
+
+<!-- JS -->
+<script src="ui/assets/javascript/app/helpers.js"></script>
+<script src="ui/assets/javascript/app/layoutControl.js"></script>
+<script src="ui/assets/javascript/app/rightSidebar.js"></script>
+<script src="ui/assets/javascript/app/sidebar.js"></script>
+<script src="ui/assets/javascript/app/main.js"></script>
+</body>
+
+
+</html>
