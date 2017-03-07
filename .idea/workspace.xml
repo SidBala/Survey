@@ -2,52 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c40b1f93-6fa4-4a1b-ad70-107aa380f1be" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/services/APIService.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/services/ConfigService.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/services/SurveyService.ts" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/about/about.component.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/about/about.component.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/about/about.component.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/athletigen-logo-white@2X.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/home/home.component.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/home/home.component.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/home/home.component.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/theme/images/favicons/android-icon-144x144.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/theme/images/favicons/android-icon-192x192.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/theme/images/favicons/android-icon-36x36.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/theme/images/favicons/android-icon-48x48.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/theme/images/favicons/android-icon-72x72.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/theme/images/favicons/android-icon-96x96.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/theme/images/favicons/apple-icon-114x114.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/theme/images/favicons/apple-icon-120x120.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/theme/images/favicons/apple-icon-144x144.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/theme/images/favicons/apple-icon-152x152.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/theme/images/favicons/apple-icon-180x180.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/theme/images/favicons/apple-icon-57x57.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/theme/images/favicons/apple-icon-60x60.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/theme/images/favicons/apple-icon-72x72.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/theme/images/favicons/apple-icon-76x76.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/theme/images/favicons/apple-icon-precomposed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/theme/images/favicons/apple-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/theme/images/favicons/browserconfig.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/theme/images/favicons/favicon-16x16.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/theme/images/favicons/favicon-32x32.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/theme/images/favicons/favicon-96x96.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/theme/images/favicons/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/theme/images/favicons/manifest.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/theme/images/favicons/ms-icon-144x144.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/theme/images/favicons/ms-icon-150x150.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/theme/images/favicons/ms-icon-310x310.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/theme/images/favicons/ms-icon-70x70.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dockerfile" afterPath="$PROJECT_DIR$/Dockerfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/buildAndRunDocker.sh" afterPath="$PROJECT_DIR$/buildAndRunDocker.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/app.module.ts" afterPath="$PROJECT_DIR$/src/app/app.module.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/models/QuestionModels.ts" afterPath="$PROJECT_DIR$/src/app/models/QuestionModels.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/survey/survey-begin/survey-begin.component.ts" afterPath="$PROJECT_DIR$/src/app/survey/survey-begin/survey-begin.component.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tsconfig.json" afterPath="$PROJECT_DIR$/tsconfig.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yarn.lock" afterPath="$PROJECT_DIR$/yarn.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.html" afterPath="$PROJECT_DIR$/src/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -87,11 +42,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SurveyService.ts" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SurveyService.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/services/SurveyService.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+              <caret line="17" column="1" lean-forward="false" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
               <folding>
                 <element signature="e#0#43#0" expanded="true" />
               </folding>
@@ -104,6 +59,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="305">
+              <caret line="192" column="50" lean-forward="false" selection-start-line="192" selection-start-column="50" selection-end-line="192" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -166,7 +131,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>route</find>
       <find>i</find>
       <find>content-base</find>
       <find>src</find>
@@ -196,6 +160,7 @@
       <find>type</find>
       <find>exclude</find>
       <find>types</find>
+      <find>i am pretty good</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -226,7 +191,6 @@
         <option value="$PROJECT_DIR$/src/lib/models/QuestionModels.ts" />
         <option value="$PROJECT_DIR$/src/ui/survey/question/question.component.html" />
         <option value="$PROJECT_DIR$/webpack.config.js" />
-        <option value="$PROJECT_DIR$/src/index.html" />
         <option value="$PROJECT_DIR$/src/ui/survey/survey-begin/survey-begin.component.ts" />
         <option value="$PROJECT_DIR$/src/ui/survey/question/question.component.ts" />
         <option value="$PROJECT_DIR$/src/app/index.html" />
@@ -245,6 +209,7 @@
         <option value="$PROJECT_DIR$/src/app/app.module.ts" />
         <option value="$PROJECT_DIR$/tsconfig.json" />
         <option value="$PROJECT_DIR$/src/app/services/APIService.ts" />
+        <option value="$PROJECT_DIR$/src/index.html" />
       </list>
     </option>
   </component>
@@ -437,7 +402,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36550000" />
+    <option name="totallyTimeSpent" value="36805000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -456,7 +421,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2821577" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32993513" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -682,14 +647,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="14" lean-forward="false" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/models/Serializers.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -803,10 +760,18 @@
     <entry file="file://$PROJECT_DIR$/src/app/services/SurveyService.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <caret line="17" column="1" lean-forward="false" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
           <folding>
             <element signature="e#0#43#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="192" column="50" lean-forward="false" selection-start-line="192" selection-start-column="50" selection-end-line="192" selection-end-column="50" />
+          <folding />
         </state>
       </provider>
     </entry>
