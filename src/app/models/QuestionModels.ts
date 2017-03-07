@@ -1,11 +1,11 @@
-export class SimpleQuestion {
+export class SimpleQuestion<DetailsType> {
     type: string;
     enabled: boolean;
     required: boolean;
     subject: string;
     text: string;
     id: number;
-
+    details: DetailsType;
     constructor(input: any) {
         this.type = input.type;
         this.enabled = input.enabled;
@@ -38,25 +38,21 @@ export class ChoiceDetails {
     choices: string[];
 }
 
-export class MultiQuestion extends SimpleQuestion {
-    details: MultiDetails[];
-
+export class MultiQuestion extends SimpleQuestion<MultiDetails[]> {
     constructor(input: any) {
         super(input);
         this.details = input.details; // TODO: Break up init for this such that we initialize the subfields
     }
 }
 
-export class ChoiceQuestion extends SimpleQuestion {
-    details: ChoiceDetails;
+export class ChoiceQuestion extends SimpleQuestion<ChoiceDetails> {
     constructor(input: any) {
         super(input);
         this.details = input.details; // TODO: Break up init for this such that we initialize the subfields
     }
 }
 
-export class LabelQuestion extends SimpleQuestion {
-    details: ChoiceDetails;
+export class LabelQuestion extends SimpleQuestion<LabelDetails> {
     constructor(input: any) {
         super(input);
         this.details = input.details; // TODO: Break up init for this such that we initialize the subfields
@@ -64,7 +60,7 @@ export class LabelQuestion extends SimpleQuestion {
 }
 
 // This map will define what sort of model type to use for each question type
-export var TypeToTypeMap: {[id: string]: SimpleQuestion;} = {
+export var TypeToTypeMap: {[id: string]: any;} = {
     "essay":SimpleQuestion,
     "time_picker": SimpleQuestion,
     "multiple_picker": MultiQuestion,
